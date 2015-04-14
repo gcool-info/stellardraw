@@ -11,3 +11,5 @@ In Stellar Draw, you have to draw your own constellation using the  real positio
 ![Laser-cut](/assets/laser_cut.JPG)
 
 _Note: you need to manipulate slightly the .svg file. This tutorial guides you through the process : http://www.instructables.com/id/Javascript-generated-laser-cut-jewellery/step9/Clean-it-up-in-inkscape/_
+
+Project for [Nasa's 2015 Space Challenge](https://2015.spaceappschallenge.org/) with D. Zanatta & Pierre-Antoine Laine.
