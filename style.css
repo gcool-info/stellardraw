@@ -107,6 +107,7 @@ h5 {
 #background {
   z-index: 1;
   position: absolute;
+  height: 100%;
 }
 
 #filter {
@@ -121,4 +122,5 @@ h5 {
 
 #foreground {
   z-index: 3;
+  height: 100%;
 }
