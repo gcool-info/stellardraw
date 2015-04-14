@@ -1,3 +1,7 @@
+/*
+ * Data taken from https://data.nasa.gov/dataset/Stars-Digital-Universe-Atlas/5bv2-dyn2
+ * Selected 1000 first stars, ordered by apparent luminosity
+ */
 var starData = {
   "meta" : {
     "view" : {

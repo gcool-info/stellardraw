@@ -164,9 +164,6 @@ function svgCurve(prevStar, nextStar, canvas) { //1-5
 
 function svgSegment(prevStar, nextStar, canvas) {
   svgLine(prevStar, nextStar, canvas);
-  svgCurve(prevStar, nextStar, canvas);
-  svgCurve(prevStar, nextStar, canvas);
-  svgCurve(prevStar, nextStar, canvas); 
 }
 
 // Draw Functions ======================================================================
@@ -299,7 +296,7 @@ function createDownloadLink() {
   var bb = new Blob([svgString]); 
 
   var a = $("#download");
-  a.attr('download', 'myStellar.svg');
+  a.attr('download', $('.user-text').val() + '.svg');
   a.attr('type', 'image/svg+xml');
   a.attr('href', (window.URL || webkitURL).createObjectURL(bb));
 }
