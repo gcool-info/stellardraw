@@ -154,6 +154,8 @@ function svgCurve(prevStar, nextStar, canvas) { //1-5
   var strokeColourIndex = Math.floor(Math.random() * 3) + 1 ;
 
   var pathString = initPoint + midPoint + endPoint;
+
+  console.log(pathString);
   canvas
     .path(pathString)
     .attr({
